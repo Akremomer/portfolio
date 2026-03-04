@@ -15,27 +15,17 @@ document.addEventListener("DOMContentLoaded", function () {
   const textElement = document.getElementById("changing-text");
 
   function changeRole() {
-    // fade out + slide down
-    textElement.style.opacity = "0";
-    textElement.style.transform = "translateY(10px)";
+    textElement.classList.add("fade-out");
 
     setTimeout(() => {
       index = (index + 1) % roles.length;
       textElement.textContent = roles[index];
 
-      // reset position above
-      textElement.style.transform = "translateY(-10px)";
-
-      setTimeout(() => {
-        // fade in + slide to normal
-        textElement.style.opacity = "1";
-        textElement.style.transform = "translateY(0)";
-      }, 50);
-
-    }, 400);
+      textElement.classList.remove("fade-out");
+    }, 500);
   }
 
-  setInterval(changeRole, 2500);
+  setInterval(changeRole, 3000);
 });
 
 
