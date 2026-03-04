@@ -160,7 +160,7 @@ width: 300px;
     animation: floatAnimation 3s ease-in-out infinite;
   }
     .section__pic-container1:hover{
-      border-color:yellow
+      border-color:black
 
     }
      
@@ -452,4 +452,5 @@ footer {
 footer p {
   text-align: center;
 }
+
 
