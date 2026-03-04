@@ -11,6 +11,10 @@ body {
   font-family: "Poppins", sans-serif;
  background-color: lightgray;
 }
+#changing-text {
+  display: inline-block;
+  transition: opacity 0.4s ease, transform 0.4s ease;
+}
 
 html {
   scroll-behavior: smooth;
@@ -451,6 +455,7 @@ footer {
 footer p {
   text-align: center;
 }
+
 
 
 
