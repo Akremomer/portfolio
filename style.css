@@ -159,11 +159,10 @@ width: 300px;
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
     animation: floatAnimation 3s ease-in-out infinite;
   }
-    .section__pic-container1:hover{
-      border-color:black
-
-    }
-     
+.section__pic-container1{
+hover:
+      border-color:black;
+}
 section {
   padding-top: 4vh;
   height: 96vh;
@@ -452,5 +451,6 @@ footer {
 footer p {
   text-align: center;
 }
+
 
 
